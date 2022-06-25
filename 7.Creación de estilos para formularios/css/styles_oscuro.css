@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #161717;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+img {
+    width: 14px;
+    height: 14px;
+}
+
+.signup {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_form {
+    margin: 150px;
+    width: 22%;
+}
+
+.top_form div {
+    align-self: start;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+#google {
+    background-color: #1A73E8;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border: none;
+    padding: 2px;
+}
+
+#google span {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#google img {
+    background-color: #ffffff;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 5px;
+}
+
+#google:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
+
+#twitter {
+    width: 50px;
+    height: 40px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+}
+
+#twitter:hover {
+    cursor: pointer;
+    background-color: #e1e1e1;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator span {
+    color: #ffffff;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.form {
+    width: 22%;
+    margin-top: -150px;
+}
+
+.form input {
+    margin-bottom: 30px;
+    margin-top: 7px;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    background-color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    color: #383838;
+}
+
+.form input:hover {
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #F59794;
+}
+
+.form input:focus {
+    background-color: #ffffff;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #F59794;
+}
+
+.form span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.form_name {
+    display: flex;
+    gap: 15px;
+}
+
+.form_name input {
+    width: 100%;
+}
+
+.form_mail label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form_mail input {
+    width: 100%;
+}
+
+.form_pass label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form_pass input {
+    width: 100%;
+
+}
+
+.check p {
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.check label {
+    display: flex;
+}
+
+#check {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px 0px 0px;
+}
+
+#check:hover {
+    box-shadow: none;
+}
+
+#check:focus {
+    box-shadow: none;
+}
+
+.form_button button {
+    width: 250px;
+    height: 40px;
+    background-color: #EA4C89;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+}
+
+.form_button button:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
